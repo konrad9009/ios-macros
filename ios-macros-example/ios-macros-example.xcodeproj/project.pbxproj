@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71546CF11C133B210005F9E4 /* AbstractThing.m in Sources */ = {isa = PBXBuildFile; fileRef = 71546CF01C133B210005F9E4 /* AbstractThing.m */; };
+		71546CF41C133BBE0005F9E4 /* ConcreteThing.m in Sources */ = {isa = PBXBuildFile; fileRef = 71546CF31C133BBE0005F9E4 /* ConcreteThing.m */; };
+		71546CF61C133BF10005F9E4 /* AbstractMethodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71546CF51C133BF10005F9E4 /* AbstractMethodTests.m */; };
 		7166B2AF1B2378DF00B23B38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7166B2AE1B2378DF00B23B38 /* main.m */; };
 		7166B2B21B2378DF00B23B38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7166B2B11B2378DF00B23B38 /* AppDelegate.m */; };
 		7166B2B51B2378DF00B23B38 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7166B2B41B2378DF00B23B38 /* FirstViewController.m */; };
@@ -29,6 +32,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		71546CEF1C133B210005F9E4 /* AbstractThing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractThing.h; sourceTree = "<group>"; };
+		71546CF01C133B210005F9E4 /* AbstractThing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractThing.m; sourceTree = "<group>"; };
+		71546CF21C133BBE0005F9E4 /* ConcreteThing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteThing.h; sourceTree = "<group>"; };
+		71546CF31C133BBE0005F9E4 /* ConcreteThing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteThing.m; sourceTree = "<group>"; };
+		71546CF51C133BF10005F9E4 /* AbstractMethodTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractMethodTests.m; sourceTree = "<group>"; };
 		7166B2A91B2378DF00B23B38 /* ios-macros-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-macros-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7166B2AD1B2378DF00B23B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7166B2AE1B2378DF00B23B38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -101,6 +109,10 @@
 				7166B2AC1B2378DF00B23B38 /* Supporting Files */,
 				7166B2D61B2379AE00B23B38 /* CustomView.h */,
 				7166B2D71B2379AE00B23B38 /* CustomView.m */,
+				71546CF21C133BBE0005F9E4 /* ConcreteThing.h */,
+				71546CF31C133BBE0005F9E4 /* ConcreteThing.m */,
+				71546CEF1C133B210005F9E4 /* AbstractThing.h */,
+				71546CF01C133B210005F9E4 /* AbstractThing.m */,
 			);
 			path = "ios-macros-example";
 			sourceTree = "<group>";
@@ -119,6 +131,7 @@
 			children = (
 				7166B2CB1B2378DF00B23B38 /* ios_macros_exampleTests.m */,
 				7166B2C91B2378DF00B23B38 /* Supporting Files */,
+				71546CF51C133BF10005F9E4 /* AbstractMethodTests.m */,
 			);
 			path = "ios-macros-exampleTests";
 			sourceTree = "<group>";
@@ -231,6 +244,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71546CF41C133BBE0005F9E4 /* ConcreteThing.m in Sources */,
+				71546CF11C133B210005F9E4 /* AbstractThing.m in Sources */,
 				7166B2D81B2379AE00B23B38 /* CustomView.m in Sources */,
 				7166B2B81B2378DF00B23B38 /* SecondViewController.m in Sources */,
 				7166B2B21B2378DF00B23B38 /* AppDelegate.m in Sources */,
@@ -243,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71546CF61C133BF10005F9E4 /* AbstractMethodTests.m in Sources */,
 				7166B2CC1B2378DF00B23B38 /* ios_macros_exampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +446,7 @@
 				7166B2D11B2378DF00B23B38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7166B2D21B2378DF00B23B38 /* Build configuration list for PBXNativeTarget "ios-macros-exampleTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +455,7 @@
 				7166B2D41B2378DF00B23B38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

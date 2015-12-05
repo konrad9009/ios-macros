@@ -24,3 +24,11 @@
   }\
   return self;\
 }
+
+/*
+ ABSTRACT_METHOD
+ Force method implementation in subclasses
+ */
+#define ABSTRACT_METHOD \
+[NSException raise:NSInternalInconsistencyException format:@"%@ must override %@", [self class],NSStringFromSelector(_cmd)]; \
+__builtin_unreachable();
